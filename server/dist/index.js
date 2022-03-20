@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const apollo_server_express_1 = require("apollo-server-express");
 require("reflect-metadata");
-const UserResolver_1 = require("./typeGraphQl/resolvers/UserResolver");
+const UserResolver_1 = require("./resolvers/UserResolver");
 const mongoose_1 = require("mongoose");
 const dotenv_1 = require("dotenv");
 const type_graphql_1 = require("type-graphql");

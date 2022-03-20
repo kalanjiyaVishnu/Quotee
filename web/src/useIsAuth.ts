@@ -11,7 +11,7 @@ const useIsAuth = (userId: string) => {
     if (data) {
       console.log(data);
     }
-  }, [data]);
+  }, []);
   return [data];
 };
 export default useIsAuth;
